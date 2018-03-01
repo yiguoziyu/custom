@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#ffffff</color>
+    <color name="tans">#00000000</color>
+    <!--主题色-->
+    <color name="main_color">#0074D3</color>
+    <!--主题背景色-->
+    <color name="main_bg_color">#F5F5F5</color>
+    <!--注册颜色-->
+    <color name="register_color">#FDA740</color>
+    <!--忘记密码-->
+    <color name="forget_ps_color">#999999</color>
+    <!--文字提示-->
+    <color name="hint_color">#999999</color>
+    <!--文字-->
+    <color name="text_color">#333333</color>
+    <!--边框-->
+    <color name="line_color">#dcdcdc</color>
+    <!--验证码button-->
+    <color name="verification_color">#C8C8C8</color>
+    <!--黑色Dialog-->
+    <color name="black_dialog_color">#454545</color>
+</resources>

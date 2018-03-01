@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/tans">
+
+    <TextView
+        android:id="@+id/login_dia_tv"
+        android:layout_width="@dimen/black_dialog_w"
+        android:layout_height="@dimen/black_dialog_h"
+        android:background="@drawable/dialog_blcak"
+        android:gravity="center"
+        android:textColor="@color/white"
+        tools:text="提示框" />
+</LinearLayout>

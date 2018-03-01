@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">RRMDemo</string>
+    <!--登入注册-->
+    <string name="login">登入</string>
+    <string name="register">注册</string>
+    <string name="us_hint">请输入手机号/用户名</string>
+    <string name="pw_hint">请输入密码</string>
+    <string name="phone_hint">请输入您的手机号</string>
+    <string name="us_hint_rg">请输入用户名</string>
+    <string name="us_hint_fo">请输入手机号</string>
+    <string name="ver_hint">请输入验证码</string>
+    <string name="ver_send_going">s后重发</string>
+    <string name="ver_send">发送验证码</string>
+    <string name="register_tip">快速注册</string>
+    <string name="forget_tip">忘记密码？</string>
+    <string name="forget_pw">找回密码</string>
+    <string name="forget_qucik">立即找回</string>
+    <string name="us_not_null">账号不为空</string>
+    <string name="pw_not_null">密码不为空</string>
+    <string name="ph_not_null">手机号不为空</string>
+    <string name="ver_not_null">验证码不为空</string>
+    <string name="input_correct_phone">请输入正确的手机号</string>
+</resources>

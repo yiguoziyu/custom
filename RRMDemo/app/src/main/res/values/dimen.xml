@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--公用样式-->
+    <!--标题栏高度-->
+    <dimen name="title_hei">69dp</dimen>
+    <!--标题字体大小-->
+    <dimen name="title_content_size">18sp</dimen>
+    <!--标题边距-->
+    <dimen name="tile_mar">15dp</dimen>
+    <!--描边高度-->
+    <dimen name="line_hei">1px</dimen>
+    <!--大Button文字大小-->
+    <dimen name="big_but_size">17sp</dimen>
+    <!--大Button高度-->
+    <dimen name="big_but_hei">44dp</dimen>
+    <!--大Button宽度-->
+    <dimen name="big_but_wid">345dp</dimen>
+    <!--输入框文字大小-->
+    <dimen name="ed_size">15sp</dimen>
+    <!--圆弧-->
+    <dimen name="radius">5dp</dimen>
+    <!--黑色Dialog宽-->
+    <dimen name="black_dialog_w">150dp</dimen>
+    <!--黑色Dialog高-->
+    <dimen name="black_dialog_h">60dp</dimen>
+
+    <!--登入注册样式-->
+    <!--纵向margin-->
+    <dimen name="login_mar_v">30dp</dimen>
+    <!--横向margin-->
+    <dimen name="login_mar_h">15dp</dimen>
+    <!--输入框边距-->
+    <dimen name="login_lin_mar">15dp</dimen>
+    <!--输入框高度-->
+    <dimen name="login_lin_hei">49dp</dimen>
+    <!--输入框宽度-->
+    <dimen name="login_lin_wid">345dp</dimen>
+    <!--底部文字大小-->
+    <dimen name="login_bottom_size">14sp</dimen>
+    <!--验证码发送按钮高度-->
+    <dimen name="verification_hei">29dp</dimen>
+    <!--验证码发送按钮宽度-->
+    <dimen name="verification_wid">80dp</dimen>
+    <!--验证码发送按钮字体大小-->
+    <dimen name="verification_size">12sp</dimen>
+    <!--验证码发送按钮边距-->
+    <dimen name="verification_mar">5dp</dimen>
+</resources>

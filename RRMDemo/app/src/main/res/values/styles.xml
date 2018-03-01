@@ -1,0 +1,63 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:actionBarSize">44dp</item>
+        <item name="android:statusBarColor">@color/main_color</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--登入注册找回- -->
+    <!--公用框-->
+    <style name="custom_layout_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/login_lin_hei</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="custom_layout_icon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/login_lin_mar</item>
+        <item name="android:layout_marginRight">@dimen/login_lin_mar</item>
+    </style>
+    <style name="custom_layout_idt">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@null</item>
+        <item name="android:textSize">@dimen/ed_size</item>
+        <item name="android:textCursorDrawable">@drawable/editext_cur_color</item>
+    </style>
+    <style name="custom_layout_de">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingLeft">@dimen/login_lin_mar</item>
+        <item name="android:paddingRight">@dimen/login_lin_mar</item>
+        <item name="android:src">@drawable/editext_delete</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="custom_button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/big_but_hei</item>
+        <item name="android:layout_marginLeft">@dimen/login_mar_h</item>
+        <item name="android:layout_marginRight">@dimen/login_mar_h</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/big_but_size</item>
+    </style>
+</resources>

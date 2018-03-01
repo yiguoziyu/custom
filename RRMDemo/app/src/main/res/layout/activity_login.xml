@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg_color"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <include layout="@layout/custom_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/login_mar_v"
+        android:layout_marginLeft="@dimen/login_mar_h"
+        android:layout_marginRight="@dimen/login_mar_h"
+        android:layout_marginTop="@dimen/login_mar_v"
+        android:background="@drawable/editex_broad"
+        android:orientation="vertical">
+
+        <LinearLayout style="@style/custom_layout_style">
+
+            <ImageView
+                style="@style/custom_layout_icon"
+                android:src="@drawable/sj_user" />
+
+            <com.ljj.rrm.util.IEditText
+                android:id="@+id/us_idt"
+                style="@style/custom_layout_idt"
+                android:hint="@string/us_hint" />
+
+            <ImageView
+                android:id="@+id/us_de"
+                style="@style/custom_layout_de"
+                tools:visibility="visible" />
+        </LinearLayout>
+
+        <include layout="@layout/custom_line" />
+
+        <LinearLayout style="@style/custom_layout_style">
+
+            <ImageView
+                style="@style/custom_layout_icon"
+                android:src="@drawable/sj_mima" />
+
+            <com.ljj.rrm.util.IEditText
+                android:id="@+id/pw_idt"
+                style="@style/custom_layout_idt"
+                android:hint="@string/pw_hint"
+                android:inputType="textPassword" />
+
+            <ImageView
+                android:id="@+id/pw_de"
+                style="@style/custom_layout_de"
+                tools:visibility="visible" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/login"
+        style="@style/custom_button"
+        android:background="@drawable/big_main_but"
+        android:text="@string/login" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/login_mar_h">
+
+        <TextView
+            android:id="@+id/to_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/login_mar_h"
+            android:clickable="true"
+            android:text="@string/register_tip"
+            android:textColor="@color/register_color"
+            android:textSize="@dimen/login_bottom_size" />
+
+        <TextView
+            android:id="@+id/to_forget_pw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/login_mar_h"
+            android:clickable="true"
+            android:text="@string/forget_tip"
+            android:textColor="@color/forget_ps_color"
+            android:textSize="@dimen/login_bottom_size" />
+    </RelativeLayout>
+</LinearLayout>

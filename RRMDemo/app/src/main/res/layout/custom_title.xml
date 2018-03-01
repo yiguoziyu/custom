@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ljj.rrm.util.IToolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/custom_itoobar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?actionBarSize"
+    android:fitsSystemWindows="true"
+    android:background="@color/main_color"
+    app:title="我是标题"
+    app:titleTextColor="#ffffff"
+    >
+
+</com.ljj.rrm.util.IToolbar>
